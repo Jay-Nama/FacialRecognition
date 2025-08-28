@@ -35,3 +35,25 @@ Example:
 Example:
 <img width="233" height="122" alt="Screenshot 2025-08-28 at 2 29 20 PM" src="https://github.com/user-attachments/assets/341d5c7e-abd0-4f1f-85fa-ab130405ba01" />
 
+---
+
+## ⚙️ Setup (for your own dataset)
+
+If you want to try this project yourself, you’ll need to create a dataset like we did:
+
+1. **Take pictures** of each participant (~100 per person, with varied lighting/poses).
+2. **Annotate images** with [LabelMe].  
+   - Draw a bounding box around the face.  
+   - Assign a label (`YourName`).  
+   - Save the JSON annotations.  
+3. **Augment dataset** with [Albumentations].  
+   - Apply flips, crops, blurs, brightness changes, etc.  
+4. **Partition dataset** into train/validation/test sets (70/15/15).  
+5. **Run training script** to build your own recognition model.
+
+---
+
+## ▶️ How to Run (with your own data)
+
+1. Collect and annotate your dataset (see above).
+2. Place data in:
