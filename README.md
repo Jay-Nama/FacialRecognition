@@ -4,6 +4,8 @@ This project implements a **real-time facial recognition system** using Convolut
 The system was trained on a custom dataset of images taken of our group (3 participants). Each image was annotated with bounding boxes and labels (`JayFace`, etc.) using **LabelMe**, then augmented to improve robustness.  
 The final trained model detects and recognizes faces in live webcam video, drawing bounding boxes around each face and displaying the person’s name.
 
+Note: The dataset (pictures + LabelMe annotations) is private and not included in this repository. The scripts will not run directly without creating your own dataset. Instead, this repo demonstrates the **workflow, code, and methodology** behind our project.
+
 ---
 
 ## 🚀 Features
