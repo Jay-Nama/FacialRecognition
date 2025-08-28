@@ -13,7 +13,7 @@ The final trained model detects and recognizes faces in live webcam video, drawi
 - CNN architecture based on pretrained **VGG16**  
 - Dual-branch network for **classification** and **bounding box regression**  
 - Real-time detection via **OpenCV** with labels displayed above faces  
-- Achieved **93%+ accuracy, precision, recall, and F1-score** :contentReference[oaicite:1]{index=1}
+- Achieved **93% accuracy, 94% precision, 95% recall, and 95% F1-score**
 
 ---
 
