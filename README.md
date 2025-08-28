@@ -56,4 +56,8 @@ If you want to try this project yourself, you’ll need to create a dataset like
 ## ▶️ How to Run (with your own data)
 
 1. Collect and annotate your dataset (see above).
-2. Place data in:
+2. Place data in: data/images/annotations
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+
