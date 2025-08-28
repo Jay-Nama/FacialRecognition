@@ -59,7 +59,24 @@ If you want to try this project yourself, you’ll need to create a dataset like
 2. Place data in: data/images/annotations
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install tensorflow opencv-python albumentations labelme numpy matplotlib scikit-learn seaborn
 
-'''bash
-4. 
+```
+4. Train Model
+```bash
+python train_model.py
+```
+5. Run Real-time recognition
+```bash
+python FacialRecognition.py
+```
+---
+
+🔮 Future Work
+
+- Support more people in the dataset
+- Try FaceNet/MTCNN for embeddings
+- Handle occlusions/extreme lighting
+- Deploy as a Flask/FastAPI web app
+
+
